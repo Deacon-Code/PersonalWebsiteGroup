@@ -31,14 +31,14 @@ const Footer = () => {
     <div className="footer">
       <div className="footer-container">
         <div className="left">
-          <div className="location">
-            <FaSearchLocation
+          <div className="linkedin">
+            <FaLinkedin
               size={20}
               style={{ color: "#000", marginRight: "2rem" }}
             />
             <div>
-              <p>Manchester Hall 121</p>
-              <h4>Wake Forest University</h4>
+              <p>See my Work</p>
+              <h4> Blah, Blah, Blah, if you want</h4>
             </div>
           </div>
           <div className="email">
@@ -52,11 +52,11 @@ const Footer = () => {
           </div>
           <div className="phone">
             <h4>
-              <FaCalendarAlt
+              <FaSearchLocation
                 size={20}
                 style={{ color: "#000", marginRight: "2rem" }}
               />{" "}
-              Mondays from 7:00 - 8:00 PM
+              Raleigh, NC, USA
             </h4>
             <div className="disclaimer">
               <h4>
