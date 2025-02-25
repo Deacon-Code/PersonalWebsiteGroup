@@ -32,7 +32,7 @@
 
 .hamburger{
     display: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 @media screen and (max-width: 1240px){
@@ -55,7 +55,6 @@
         transition: 0.3s;
         z-index: -1;
         background-color: rgba(253, 195, 20, 0.85);
-
     }
 
     .nav-menu.active{
