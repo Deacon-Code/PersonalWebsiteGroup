@@ -94,10 +94,10 @@ const Footer = () => {
               size={30}
               style={{ color: "#000", marginRight: "1rem", cursor: "pointer" }}
             />
-            {/*<FaLinkedin
+            {<FaLinkedin
               size={30}
               style={{ color: "#000", marginRight: "1rem" }}
-            />*/}
+            />}
           </div>
         </div>
       </div>
