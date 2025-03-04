@@ -17,14 +17,17 @@ import { IoIosWarning } from "react-icons/io";
 
 import useRedirectOnClick from "../hooks/useRedirectOnClick.js";
 
-import { SiGroupme } from "react-icons/si";
+import { SiGroupme, SiInstagram } from "react-icons/si";
 
 const Footer = () => {
-  const handleGroupmeClick = useRedirectOnClick(
-    "https://groupme.com/join_group/102163335/5l7p6DwY"
+  const handleInstagramClick = useRedirectOnClick(
+    "https://instagram.com"
   );
   const handleGitHubClick = useRedirectOnClick(
     "https://github.com/Deacon-Code"
+  );
+  const handleLinkedInClick = useRedirectOnClick(
+    "https://linkedin.com"
   );
 
   return (
@@ -70,12 +73,11 @@ const Footer = () => {
           </div>
         </div>
         <div className="right">
-          <h4>About us</h4>
+          <h4>My Services</h4>
           <p>
-            Deacon Code is Wake Forest University’s premier software engineering
-            organization. Focused on technical projects and development, we
-            foster innovation and collaboration within the Wake Forest
-            community. Join us to code, create, and connect!
+            I am so awesome, please hire me. I will sweep floors at FAANG just to put 
+            it on my resume that I worked for FAANG. If not, direct me to the nearest
+            homeless shelter in NLog(N) time.
           </p>
           <div className="socials">
             {
@@ -89,14 +91,15 @@ const Footer = () => {
                 }}
               />
             }
-            <SiGroupme
-              onClick={handleGroupmeClick}
+            {<SiInstagram
+              onClick={handleInstagramClick}
               size={30}
               style={{ color: "#000", marginRight: "1rem", cursor: "pointer" }}
-            />
+            />}
             {<FaLinkedin
+              onClick = {handleLinkedInClick}
               size={30}
-              style={{ color: "#000", marginRight: "1rem" }}
+              style={{ color: "#000", marginRight: "1rem", cursor: "pointer" }}
             />}
           </div>
         </div>
