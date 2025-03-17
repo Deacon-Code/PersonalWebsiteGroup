@@ -23,16 +23,7 @@
     margin-bottom: 1.5rem;
 }
 
-.intro-section-container .left button {
-    padding: 0.75rem 1.5rem;
-    font-size: 1rem;
-    background-color: #123456;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
+
 
 .intro-section-container .left button:hover {
     background-color: #345678;
@@ -48,10 +39,10 @@
 .intro-section-container .right img {
     width: 100%;
     max-width: 400px;
-    border-radius: 10px;
+    border-radius: 1rem;
 }
 
-/* Responsive styling */
+
 @media screen and (max-width: 768px) {
     .intro-section-container {
         grid-template-columns: 1fr;

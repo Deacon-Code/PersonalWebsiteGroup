@@ -11,7 +11,7 @@
 }
 
 .header-bg{
-    background-color: rgba(253, 195, 20, 0.85);
+    background-color: #43c729;
     transition: 0.5s;
 
 }
@@ -54,7 +54,7 @@
         height: 100vh;
         transition: 0.3s;
         z-index: -1;
-        background-color: rgba(253, 195, 20, 0.85);
+        background-color: #43c729;
     }
 
     .nav-menu.active{

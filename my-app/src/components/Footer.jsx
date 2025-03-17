@@ -75,12 +75,13 @@ const Footer = () => {
         <div className="right">
           <h4>My Services</h4>
           <p>
-            I am so awesome, please hire me. I will sweep floors at FAANG just to put 
-            it on my resume that I worked for FAANG. If not, direct me to the nearest
-            homeless shelter in NLog(N) time.
+            I can hack your computer, steal your data, and sell it to the highest bidder.
+            I am a master at leaking valuable information to sabotage the American government and 
+            I am absolutely not a Russian spy.
+            I am a fullstack developer.
           </p>
           <div className="socials">
-            {
+            
               <FaGithub
                 onClick={handleGitHubClick}
                 size={30}
@@ -90,17 +91,17 @@ const Footer = () => {
                   cursor: "pointer",
                 }}
               />
-            }
-            {<SiInstagram
+            
+            <SiInstagram
               onClick={handleInstagramClick}
               size={30}
               style={{ color: "#000", marginRight: "1rem", cursor: "pointer" }}
-            />}
-            {<FaLinkedin
+            />
+            <FaLinkedin
               onClick = {handleLinkedInClick}
               size={30}
               style={{ color: "#000", marginRight: "1rem", cursor: "pointer" }}
-            />}
+            />
           </div>
         </div>
       </div>

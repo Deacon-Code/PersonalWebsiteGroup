@@ -2,7 +2,7 @@ import React, { useState, useffect} from "react";
 import { Link } from "react-router-dom";
 import "./NavbarStyle.css";
 import { FaBars, FaTimes } from "react-icons/fa";
-
+import { FaEye } from "react-icons/fa";
 const Navbar = () => {
 	const [click, setClick] = useState(false);
 	const handleClick = () => setClick(!click);
@@ -21,7 +21,7 @@ const Navbar = () => {
 		<div className={color ? "header header-bg" : "header"}>
 			<Link to="/">
 				{" "}
-				<h1>Personal Website</h1>
+				<FaEye size={45} style={{ color: "#000" }} />
 			</Link>
 			<ul className={click ? "nav-menu active" : "nav-menu"}>
 				<li>
