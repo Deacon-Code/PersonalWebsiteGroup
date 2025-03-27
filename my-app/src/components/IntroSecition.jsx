@@ -20,4 +20,4 @@ const IntroSecition = () => {
   )
 }
 
-export default IntroSecition
+export default IntroSecition;

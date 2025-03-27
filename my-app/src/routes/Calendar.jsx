@@ -1,16 +1,16 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import IntroSection from "../components/IntroSecition";
+import CalendarComponent from "../components/Calendar";
 
-const Homepage = () => {
+const Calendar = () => {
 	return (
 		<div>
 			<Navbar />
-			<IntroSection />
+			<CalendarComponent />
 			<Footer />
 		</div>
 	);
 };
 
-export default Homepage;
+export default Calendar;

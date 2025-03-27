@@ -1,0 +1,102 @@
+.card-container{
+    background: #e41717;
+}
+
+
+.card-container .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-container .row .column{
+    flex: 1;
+    width: 33.33%;
+    margin-bottom: 1rem;
+    padding: 1rem 1rem;
+}
+
+.card-container .row .column .Project-card{
+    display: flex;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 10px;
+    border: 3px solid rgb(0,0,0);
+    background-color: rgb(34, 184, 34);
+    border-radius: 15px;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.card-container .row .column .Project-card .inside-card-container{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 0.5rem;
+    text-align: center;
+}
+
+.card-container .row .column .Project-card .inside-card-container .card-info{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 4em;
+}
+
+.card-container .row .column .Project-card .inside-card-container .btn-project{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem .2rem;
+    border-radius: 20px;
+    border: 2px solid #000000;
+    white-space: normal;
+    font-size: 1.2rem;
+    padding: 1.2rem;
+    text-transform: uppercase;
+    background: transparent;
+    color: #000000;
+    cursor: pointer;
+}
+
+/* */
+
+.card-container .row .column .Project-card .inside-card-container .btn-project:hover{
+    background: rgba(255, 255, 255, 0.2);
+  }
+
+
+
+  .Project-card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+  }
+
+.Project-card img {
+    border: 0px solid rgb(247, 6, 6);
+    padding: 0px;
+    border-radius: 10px;
+    width: 100%; 
+    height: auto; 
+    aspect-ratio: 1 / 1; 
+    object-fit: cover; 
+    margin: 0 auto;
+    display: block;
+  }
+
+  @media screen and (max-width: 650px) {
+    .card-container .row .column {
+        width: 100%;
+        display: block;
+    }
+    .card-container .row {
+        flex-direction: column;
+    }
+}
+
+
+
+
+
