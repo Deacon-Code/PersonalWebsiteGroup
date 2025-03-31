@@ -36,6 +36,7 @@
       text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
    }
   
+   /* Consdier removing, not really needed */
    @media screen and (max-width:640px)
    {
       .headerStyle h1{

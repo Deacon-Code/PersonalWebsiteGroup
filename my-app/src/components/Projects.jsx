@@ -20,7 +20,7 @@ const Projects = () => {
 							<div className="card-info">
 								<p>I Fled to Russia to ensure I could cover my tail when the CIA came after me. I totally am not on Putin's payroll and my family is not in state prision.</p>
 							</div>
-							<Link to="/" className="btn-project">
+							<Link to="/projects/Project_1" className="btn-project">
 								View Project
 							</Link>
 						</div>

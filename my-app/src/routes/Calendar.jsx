@@ -3,9 +3,11 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import CalendarComponent from "../components/Calendar";
 import GenericHeader from "../components/GenericHeader";
-import Eye from "../assets/eye_logo.svg";
+import Mother_Russia from "../assets/Mother_Russia.jpg";
+import useScrollToTop from "../hooks/useScrollToTop";
 
 const Calendar = () => {
+	useScrollToTop();
 	return (
 		<div>
 			<Navbar />
