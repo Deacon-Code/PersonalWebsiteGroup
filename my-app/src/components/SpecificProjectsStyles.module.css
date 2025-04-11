@@ -1,0 +1,35 @@
+.Project{
+    background-color: rgb(255, 255, 255);
+    /*background-image: url("../assets/yellowWhiteSquare.svg");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Project .row{
+    display: flex;
+    padding: 1rem;
+}
+
+.Project .column{
+    padding: 1rem;
+    flex: 50%;
+    font-size: 1.2rem;
+}
+
+.column .description{
+    padding: 1rem;
+    background-color: rgba(20, 253, 20, 0.8);
+    width: 100%;
+    height: 100%;
+    border-radius: 4rem;
+}
+
+@media screen and (max-width: 640px)
+{
+    .Project .row{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+}
+
