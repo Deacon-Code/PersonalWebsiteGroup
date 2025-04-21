@@ -18,7 +18,7 @@ const Projects = () => {
 						<div className="inside-card-container">
 							<h3>Fleeing to Russia</h3>
 							<div className="card-info">
-								<p>I Fled to Russia to ensure I could cover my tail when the CIA came after me. I totally am not on Putin's payroll and my family is not in state prision.</p>
+								<p>I went up north for a little burr burr. Vodka kinda slaps here though</p>
 							</div>
 							<Link to="/projects/Project_1" className="btn-project">
 								View Project
@@ -36,9 +36,9 @@ const Projects = () => {
 						<div className="inside-card-container">
 							<h3>Working at the NSA</h3>
 							<div className="card-info">
-								<p>I worked to leak untold numbers of American secrets to our enemies. However, I can assure your that this was all as a result of my patriotism, not out of any personal self interest. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit voluptates tempora perferendis laborum praesentium voluptatibus, sed itaque, modi animi magnam dolor molestias dolores dolorum architecto asperiores sit aperiam, neque non.</p>
+								<p> I leaked more valuable data to our enemies than a leaky pipe in winter</p>
 							</div>
-							<Link to="/" className="btn-project">
+							<Link to="/projects/Project_2" className="btn-project">
 								View Project
 							</Link>
 						</div>
@@ -47,14 +47,14 @@ const Projects = () => {
 				<div className="column">
 					<div className="Project-card">
 						<img
-							src= {NSA}
+							src= "https://m.media-amazon.com/images/M/MV5BZjlhMzg1MzMtOTMyMi00Mzc5LWIwM2QtYWYyMDM2OTA3MzIyXkEyXkFqcGc@._V1_.jpg"
 							alt="Project"
 							style={{ width: "100%" }}
 						/>
 						<div className="inside-card-container">
-							<h3>Working at the NSA</h3>
+							<h3>Podcasting</h3>
 							<div className="card-info">
-								<p>I worked to leak untold numbers of American secrets to our enemies. However, I can assure your that this was all as a result of my patriotism, not out of any personal self interest. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit voluptates tempora perferendis laborum praesentium voluptatibus, sed itaque, modi animi magnam dolor molestias dolores dolorum architecto asperiores sit aperiam, neque non.</p>
+								<p>You know, podcasts are low key kinda cool, NGL no cap</p>
 							</div>
 							<Link to="/" className="btn-project">
 								View Project

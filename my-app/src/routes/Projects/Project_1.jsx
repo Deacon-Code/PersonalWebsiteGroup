@@ -12,8 +12,8 @@ const Project_1 = () => {
     <div>
       <Navbar/>
         <GenericHeader
-            heading="Project 1"
-            text="This is my first project!"
+            heading="Russia"
+            text="The Motherland"
             backgroundColor = "#43c729"
         />
         <SpecificProjectItem
